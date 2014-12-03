@@ -1,0 +1,20 @@
+﻿<Window x:Class="MagstripeDecoder.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Magstripe Decoder" Height="310
+        " Width="519">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="31"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="StartButton_Click" Height="22" Grid.RowSpan="2"/>
+        <Button x:Name="StopButton" Content="Stop" HorizontalAlignment="Left" Margin="90,10,0,0" VerticalAlignment="Top" Width="75" Click="StopButton_Click" IsEnabled="False" Height="22" Grid.RowSpan="2"/>
+        <ComboBox x:Name="DeviceBox" Margin="170,10,170,0" VerticalAlignment="Top" Height="22" Grid.RowSpan="2"/>
+        <Button x:Name="LoadButton" Content="Load..." Margin="0,10,90,0" VerticalAlignment="Top" Click="LoadButton_Click" HorizontalAlignment="Right" Width="75" Height="22" Grid.RowSpan="2"/>
+        <Button x:Name="ClearButton" Content="Clear" Margin="0,10,10,0" VerticalAlignment="Top" Click="ClearButton_Click" HorizontalAlignment="Right" Width="75" Height="22" Grid.RowSpan="2"/>
+        <TextBox x:Name="Track1Box" Margin="10,10,10,2" TextWrapping="Wrap" Grid.Row="1"/>
+        <TextBox x:Name="Track2Box" Margin="10,3,10,10" TextWrapping="Wrap" Grid.Row="2"/>
+    </Grid>
+</Window>
