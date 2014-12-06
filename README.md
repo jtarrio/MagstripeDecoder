@@ -12,6 +12,8 @@ This program was written in C# on Visual Studio Community 2013, with the NAudio 
 
 You'll need to build some hardware to use this program. You'll need the cheapest magstripe reader you can find, a couple of resistors and capacitors (minimum values in the diagram below), and a 3.5 mm microphone jack. Your computer must have a stereo microphone socket.
 
+![Circuit diagram for the card reader hardware](diagram-cardreader.png)
+
 The general idea is to connect the read heads for track 1 and 2 to the right and left channel in the microphone jack, respectively. One of the leads in each read head is connected to the jack's sleeve; the other lead of track 1 is connected to the sleeve, and the other lead of track 2 is connected to the tip.
 
 There will be a potential difference of 3-5 volt between the sleeve and the ring, and also between the sleeve and the tip. To avoid turning the read heads into electromagnets, I've included a high-pass filter in the circuit. I'm no electrical engineer, but you probably can and should use higher values for the capacitors.
