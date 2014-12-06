@@ -4,7 +4,7 @@ A program to decode a magnetic stripe card, receiving the raw data from the magn
 
 The general idea is to have a set of magnetic read heads connected to the computer's sound card via the microphone socket. This program then listens on the microphone input, detects the pulses coming from the read heads, and decodes them to reveal the data stored in the magstripe card.
 
-For more information on how it works, read [my blog post about magnetic stripes](http://jacobo.tarrio.org/know/how-magnetic-stripe-cards-work).
+For more information on how it works and how that data is stored, read [my blog post about magnetic stripe cards](http://jacobo.tarrio.org/know/how-magnetic-stripe-cards-work).
 
 This program was written in C# on Visual Studio Community 2013, with the NAudio library.
 
