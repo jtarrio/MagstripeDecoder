@@ -1,4 +1,4 @@
-# Magnetic Stripe Reader
+# Magnetic Stripe Decoder
 
 A program to decode a magnetic stripe card, receiving the raw data from the magnetic stripe via the sound card.
 
