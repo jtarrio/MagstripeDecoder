@@ -8,6 +8,8 @@ For more information on how it works and how that data is stored, read [my blog 
 
 This program was written in C# on Visual Studio Community 2013, with the NAudio library.
 
+Note: this is _not_ good code. I wrote it to learn C#, and I wasn't entirely successful at it. Feel free to lift and reuse the code under the terms of its license, but don't expect it to work right as-is, especially since it's very old.
+
 ## Hardware
 
 You'll need to build some hardware to use this program. You'll need the cheapest magstripe reader you can find, a couple of resistors and capacitors (minimum values in the diagram below), and a 3.5 mm microphone jack. Your computer must have a stereo microphone socket.
